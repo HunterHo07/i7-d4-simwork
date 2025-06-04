@@ -1,0 +1,66 @@
+{
+  "name": "SimWork - The Future of Work Simulation",
+  "short_name": "SimWork",
+  "description": "Prove your skills. Play your job. An immersive 2.5D simulation platform for skill assessment and talent discovery.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0E27",
+  "theme_color": "#00D4FF",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["education", "productivity", "business"],
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/HunterHo07/Portfolio_1/refs/heads/main/images/logo.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/HunterHo07/Portfolio_1/refs/heads/main/images/logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "platform": "wide"
+    },
+    {
+      "src": "/screenshot-mobile.jpg",
+      "sizes": "390x844",
+      "type": "image/jpeg"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Demo",
+      "short_name": "Demo",
+      "description": "Jump directly to the interactive demo",
+      "url": "/demo",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/HunterHo07/Portfolio_1/refs/heads/main/images/logo.webp",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Sign Up",
+      "short_name": "Join",
+      "description": "Create your SimWork account",
+      "url": "/signup",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/HunterHo07/Portfolio_1/refs/heads/main/images/logo.webp",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

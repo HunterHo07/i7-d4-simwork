@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Chen",
+    "role": "Senior Developer",
+    "company": "TechCorp",
+    "avatar": "👩‍💻",
+    "rating": 5,
+    "text": "SimWork completely changed how I showcase my coding skills. The 2.5D environment makes it feel like real work, not just another coding test. I got hired within a week!",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Marcus Johnson",
+    "role": "UX Designer",
+    "company": "DesignStudio",
+    "avatar": "👨‍🎨",
+    "rating": 5,
+    "text": "As a designer, I love how SimWork lets me demonstrate my creative process in real-time. The design station tools are incredibly realistic and engaging.",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Emily Rodriguez",
+    "role": "Project Manager",
+    "company": "StartupXYZ",
+    "avatar": "👩‍💼",
+    "rating": 5,
+    "text": "The PM scenarios in SimWork are spot-on. It's the first platform that actually tests project management skills in realistic situations. Highly recommended!",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "David Kim",
+    "role": "Data Scientist",
+    "company": "DataCorp",
+    "avatar": "👨‍🔬",
+    "rating": 5,
+    "text": "The data analysis challenges are incredibly well-designed. SimWork helped me land my dream job by proving my skills in action.",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Lisa Wang",
+    "role": "AI Engineer",
+    "company": "AI Innovations",
+    "avatar": "👩‍🔬",
+    "rating": 5,
+    "text": "The AI prompt engineering station is brilliant. It's exactly what the industry needs to assess real AI skills beyond theoretical knowledge.",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Alex Thompson",
+    "role": "Full Stack Developer",
+    "company": "WebSolutions",
+    "avatar": "👨‍💻",
+    "rating": 5,
+    "text": "I've tried many coding platforms, but SimWork's immersive approach is unmatched. The gamification makes skill building actually fun!",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Rachel Green",
+    "role": "HR Director",
+    "company": "TalentFirst",
+    "avatar": "👩‍💼",
+    "rating": 5,
+    "text": "From a hiring perspective, SimWork gives us unprecedented insight into candidates' real abilities. It's revolutionized our recruitment process.",
+    "featured": true
+  },
+  {
+    "id": 8,
+    "name": "James Wilson",
+    "role": "Freelance Developer",
+    "company": "Independent",
+    "avatar": "👨‍💻",
+    "rating": 5,
+    "text": "As a freelancer, SimWork helps me stand out from the crowd. Clients can see my actual work process, not just the end result.",
+    "featured": false
+  }
+]

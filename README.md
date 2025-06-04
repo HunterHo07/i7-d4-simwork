@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 SimWork - The Future of Work Simulation
 
-## Getting Started
+**Prove your skills. Play your job.**
 
-First, run the development server:
+SimWork is an immersive, AI-powered 2.5D simulation platform that replicates the future of work. Users enter an open-world office environment and interact with real tools (IDE, form-filler, design canvas) to complete job-relevant quests. The platform helps hiring managers, educators, and learners assess real skills, track performance, and discover top freelancers or job-ready talent—all within a gamified, open environment.
+
+## 🚀 The Problem We Solve
+
+- **Wrong Hires Waste Money**: Interviews don't reflect real work. Mis-hires cost time, money, and momentum.
+- **No Proof of Real Skill**: Fake resumes and no job task simulation leads to poor hiring.
+- **Slow Hiring, Poor Screening**: Current processes lack automation, hands-on proof, or adaptive testing.
+- **Lack of Talent Visibility**: Freelancers or skilled candidates have no immersive way to show their skills live.
+
+## 💡 Our Solution
+
+- **2.5D Open Office Simulation**: Users explore a stylized office map and go to task zones: Developer Desk, Design Bay, Data Entry Station, PM Boardroom, AI Prompt Lab.
+- **Real Tools Embedded**: Each station contains task interfaces like Cloud IDE, form fillers, design canvas, and markdown notes for solving realistic work scenarios.
+- **Quest Engine**: AI generates role-specific quests and tasks (e.g., bug fix, form validation, banner design).
+- **Freelancer Discovery**: Players can view nearby users, their profiles, and what tasks they've completed.
+- **User Profiles & Rewards**: Completed quests earn badges, XP, and proof-of-skill cards visible on public profiles.
+
+## 🎯 Target Audience
+
+- Tech recruiters & HR managers
+- Bootcamp students, junior talent, freelancers
+- Corporates and L&D teams
+- Hiring platforms and training providers
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Styling**: Tailwind CSS v3
+- **Animations**: GSAP with ScrollTrigger
+- **3D/2.5D Engine**: Three.js for 3D, Phaser 3 for 2D
+- **Effects**: Custom FX pool with matrix effects, parallax, AI animations
+
+## 🚀 Getting Started
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Open http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Project Structure
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+src/
+├── app/                 # Next.js App Router
+├── components/          # Reusable components
+├── lib/                 # Utilities and configurations
+├── styles/              # Global styles and Tailwind
+└── public/              # Static assets
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎮 MVP Features
 
-## Learn More
+- ✅ 2.5D Open Office Map with walkable navigation
+- ✅ Stations for Developer, Designer, PM, Data Entry, AI Prompt Engineer
+- ✅ Embedded real tools: VS Code (cloud), form filler, design canvas
+- ✅ AI-generated Quests per role
+- ✅ Real-time Scoring (accuracy, speed, completion)
+- ✅ Public User Profiles with earned XP, badges, and completed quests
+- ✅ Freelancer Discovery: See and filter users nearby in real-time
+- ✅ Sample hiring dashboard to track session data
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Design Philosophy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Futuristic, AI-like, and future design trends** - Every page and section features advanced visual effects from our FX-Pool including matrix effects, 3D animations, parallax scrolling, and interactive demonstrations.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📈 Market Opportunity
 
-## Deploy on Vercel
+- 70% of hiring managers say traditional interviews are unreliable
+- Gamified learning has 90% higher retention than static content
+- Companies want faster, proof-based hiring methods
+- No platforms merge open world, quests, and freelancer discovery in one
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏆 Competitive Advantage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Only system with **real embedded tools inside a gamified open world**
+- Combines **learning, testing, and hiring** into one immersive experience
+- Freelancer profiles backed by **live task logs and AI-reviewed work**
+- Adaptive AI ensures every player gets personalized tasks and feedback
+
+---
+
+**Not a test—real work, simulated.**
