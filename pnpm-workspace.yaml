@@ -1,5 +1,14 @@
+packages:
+  - .
 allowBuilds:
   esbuild: true
   sharp: true
   canvas: true
   unrs-resolver: true
+  core-js: true
+  core-js-pure: true
+  node-sass: true
+overrides:
+  postcss: ^8.5.15
+  tar: ^7.5.11
+  dompurify: ^3.3.4
